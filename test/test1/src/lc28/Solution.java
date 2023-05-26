@@ -5,22 +5,19 @@ class Solution {
         if (needle.length() == 0 || haystack.length() == 0) {
             return -1;
         }
-        int re = -1;
-        char[] c1 = haystack.toCharArray();
-        char[] c2 = needle.toCharArray();
-
-        for (int i = 0; i < haystack.length(); i++) {
-            int j = 0;
-            int start = i;
-            while (i < haystack.length() && j < needle.length() && c1[i] == c2[j]) {
-                if (j == c2.length-1) {
+        int n=haystack.length();
+        for (int i = 0; i < n; i++) {
+            int j=0;
+            int start=i;
+            while (j<needle.length()&&i<n&&haystack.charAt(i)==needle.charAt(j)){
+                if(j==needle.length()-1){
                     return start;
                 }
-                i++;
                 j++;
+                i++;
             }
             i=i-j;
         }
-        return re;
+        return -1;
     }
 }
