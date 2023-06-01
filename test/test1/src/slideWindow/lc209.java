@@ -1,9 +1,8 @@
-package lc209;
+package slideWindow;
 
 
-import java.util.Arrays;
 //长度最小的子数组
-class Solution {
+class lc209 {
     public int minSubArrayLen(int target, int[] nums) {
         int count=0;
         for (int i = 0; i < nums.length; i++) {
