@@ -1,4 +1,4 @@
-package august_Code_Exercise;
+package DP;
 
 public class lc1567 {
     public int getMaxLen(int[] nums) {

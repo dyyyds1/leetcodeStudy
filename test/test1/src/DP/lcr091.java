@@ -1,4 +1,4 @@
-package august_Code_Exercise;
+package DP;
 
 public class lcr091 {
     public int minCost(int[][] costs) {

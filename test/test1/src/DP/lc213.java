@@ -1,4 +1,4 @@
-package august_Code_Exercise;
+package DP;
 
 public class lc213 {
     public int rob(int[] nums) {

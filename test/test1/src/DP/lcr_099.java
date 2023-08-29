@@ -1,4 +1,4 @@
-package august_Code_Exercise;
+package DP;
 
 public class lcr_099 {
     public int minPathSum(int[][] grid) {

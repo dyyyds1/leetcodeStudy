@@ -1,4 +1,4 @@
-package august_Code_Exercise;
+package DP;
 
 public class lc740 {
     public int deleteAndEarn(int[] nums) {

@@ -1,4 +1,4 @@
-package august_Code_Exercise;
+package DP;
 
 public class lc123 {
     public int maxProfit(int[] prices) {
