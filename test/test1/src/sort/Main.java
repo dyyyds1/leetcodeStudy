@@ -11,9 +11,15 @@ public class Main {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main2(String[] args) {
         int[] arr={15,27,19,18,10,8};
         Sort.shellSort(arr);
+        System.out.println(Arrays.toString(arr));
+    }
+
+    public static void main(String[] args) {
+        int[] arr={15,27,19,18,10,8};
+        Sort.quickSort(arr);
         System.out.println(Arrays.toString(arr));
     }
 }
